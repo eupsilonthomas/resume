@@ -32,7 +32,7 @@ const About:any=(): JSX.Element => {
               &nbsp;
            <h2 className="text-4xl">About me:</h2>
             <div className="text-2xl" > 
-              <p tabIndex={0}>I am a software engineer that lives in Costa Mesa, California.  I love speaking Chickasaw, and am a citizen of the Chickasaw Nation.  I love surfing, and hanging out with my family. I love building things, and sometimes I like to just go swimming in the pool. </p>
+              <p tabIndex={0}>I am a software engineer that lives in the Greater Los Angeles area.  I love speaking Chickasaw, and am a citizen of the Chickasaw Nation.  I love surfing, and hanging out with my family. I love building things, and sometimes I like to just go swimming in the pool. </p>
            </div>   
         </div>
         </div>
