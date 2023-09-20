@@ -1,0 +1,21 @@
+.navigation {
+  background-color:whitesmoke;
+  outline: 1px solid whitesmoke;
+  color: bg-gray-900;
+  float:right;
+  display: flex;
+  padding: 4px;
+  
+}
+ 
+.navigation a{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 8px;
+}
+
+.navigation :hover {
+  text-decoration: underline;
+  color: black;
+  font-weight: bold;
+}

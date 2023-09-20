@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+ /* width: 100%; /* or max-width: 100%; */
+ /* height: auto; */
+  width: 100;
+  height: 100;
+}
+
+img {
+  width: 100%; /* or max-width: 100%; */
+  height: auto;
+}
+
+svg {
+width: 100%; /* or max-width: 100%; */
+  height: auto;
+}
+
+@font-face {
+  font-family: "UChikashsha";
+  src: url("../asset/UniSkript-Chikashshanompa/UniSkript-Chikashshanompa.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*@import css('../components/header/HeaderComponent.scss');*/
+ 
+
+#globalLoader {
+  position: fixed;
+  z-index: 9999;
+  top: 50%;
+  left: 50%;
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#globalLoader img {
+  width: 10%;
+  height: 10%;
+}
+ 
+ 
