@@ -1,6 +1,7 @@
 import React from "react";
 import Link from 'next/link';
 import { Word } from '../../../typings';
+ 
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
@@ -21,7 +22,7 @@ const fetchWords = async() => {
     },
   }   
    
-  const res = await fetch(`${api}/chickasaw?limit=10&offset=${random}&`, options);
+  const res = await fetch(`${api}/chickasaw?limit=5&offset=${random}&`, options);
   const { data } = await res.json();
   const words: Word[] = data;
  
@@ -30,10 +31,13 @@ const fetchWords = async() => {
 
 const WordList:any=async() =>{
   const words = await fetchWords();
+
   return <>
     {words.map((word) => (
-      <li key={word._id}>
-          <Link href={`/words/${word._id}`}>WordList: {word.word[0]}</Link>
+      <li key={word._id} className="list-none">
+        <ul className="p-2 m-2 text-2xl hover:underline">
+          <Link href={`/words/${word._id}`}>{word.word[0]}</Link>
+        </ul>  
       </li>
     ))}
   </>

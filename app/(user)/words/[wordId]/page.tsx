@@ -1,28 +1,19 @@
  
 import React from "react";
-//import { Word } from '../../../../typings';
 import { notFound } from 'next/navigation';
-import Card from '../../../../components/card';
-import Cards from '../Cards';
-//import { Container, Row, Col } from 'react-grid-system';
  
 // toggle cache if you want to get server side render every time...
 export const dynamicParams = true;
 
 type PageProps = {
   params: {
-    _id: string | '64387d3084b74db82ea316e4';
+    wordId: string;
   }
 }
 
-type Word = {
-  word: Array<string> | [];
-  gloss: Array<string> | [];
-  _id: string;
-}
-
- 
-const fetchWord = async( _id: string) => {
+const fetchWord = async( wordId: string) => {
+  const url = `${process.env.CHOLHKAN_API}/chickasaw/${wordId}`;
+  
   let options = {
     method: 'GET',
     headers: {
@@ -31,7 +22,7 @@ const fetchWord = async( _id: string) => {
     },
     next: {revalidate: 60} 
   }
-  console.log('here is the id', _id);
+  
   // force-cache == static page
   // no-cache == no cache
   // ISG - static generation, not here
@@ -39,32 +30,39 @@ const fetchWord = async( _id: string) => {
   // const res = await fetch(url, {cache: ''});
 
   // you do need isr, so revalidate or your page will be static
-  const res = await fetch(`${process.env.CHOLHKAN_API}/chickasaw/${_id}`,options);
+  const res = await fetch(url,options);
   //const res = await fetch(url, { next: {revalidate: 60} });
   const { data } = await res.json();
   const word = data;
-  console.log('Word...........', word)
+  
   return word;
 }
 
 
-async function WordPage ({params: { _id }}: PageProps) {
-
-  console.log('......in the wordpage here is the id:' , _id)
-
-  const data = await fetchWord(_id);
+async function WordPage ({params: {wordId}}: PageProps) {
+  const data = await fetchWord(wordId);
   let word = data;
  
   if(!word) return notFound();
    //return the fragment or the server side parts will be gone
   return (
     <>
-      <Cards words={word}/>
+     <div className="text-3xl bg-slate-300 card m-auto mb-36 p-4">
+        <div className="text-teal-500">Chickasaw:</div>
+        <div>{word.word[0]}</div>
+        <div className="pt-4 text-teal-500">
+        Definition:</div>
+        <div className="">
+         {word.gloss[0]}
+         </div>
+     </div> 
     </>
   )
 }
 
 export default WordPage; 
+
+/*
 // this is telling it to generate all of the pages :)
 // GENERATE STATIC PARAMS
  
@@ -98,6 +96,6 @@ export async function generateStaticParams(){
 
   return trimmedExercises.map(word => ({
     _id: word._id,
-  }));
+  })); 
 }
- 
+*/

@@ -3,11 +3,11 @@ import { Inter } from 'next/font/google'
 import Header from './Header';
 import Footer from './Footer';
 const inter = Inter({ subsets: ['latin'] })
- 
+const GTAG = process.env.GTAG;
 
 /*export const metadata = {
   title: 'Ev Website Next 13',
-  description: 'Sample Next 13',
+  description: '',
 }*/
 
 export default function RootLayout({
@@ -26,31 +26,30 @@ export default function RootLayout({
                 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
                 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-                })(window,document,'script','dataLayer','GTM-WC8K8NM');`,
+                })(window,document,'script','dataLayer',${GTAG});`,
         }}
         />
         {/* End Google Tag Manager */}
         </> 
 
-        <title>Chickasaw Flash Cards | Chikashsha aashoppala' chalhka'</title>
+        <title>Evelyn D Thomas</title>
         <meta name="theme-color" content="#03adfc" />   
         <meta httpEquiv="Cache-Control" content="private" />
         <meta httpEquiv="Expires" content="86400000" />
         <meta httpEquiv="Cache-Control" content="max-age=86400000" /> 
-        <meta name="description" content="Chickasaw Flash Cards | Chikashsha aashoppala' chalhka'. Get started by visiting a Chickasaw Flashcard section. Flash cards are an excellent way of learning. Chickasaw Rosetta Stone Lesson Vocabulary Support for each lesson." />  
+        <meta name="description" content="Evelyn D Thomas" />  
       </head>  
       
       <body className={inter.className}>
               {/* Google Tag Manager (noscript) */}
         <noscript
         dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WC8K8NM" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
+            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=${GTAG}" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
         }}
         />
         {/* End Google Tag Manager (noscript) */}
         
         <Header/>
-       
         {children}
         <Footer/>
       </body>

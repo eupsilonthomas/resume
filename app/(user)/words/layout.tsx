@@ -1,4 +1,5 @@
-import WordList from "./WordList";
+import WordList from './WordList';
+
 
 export default function RootLayout({
   children,
@@ -6,9 +7,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <main className="flex flex-col min-h-[90vh]">
-      <div className="">
+    <main className="flex flex-col min-h-[79vh]">
+      <div>
         <WordList/>
+      </div>  
+      <div className="">
         <div>{children}</div>
       </div>
     </main>
