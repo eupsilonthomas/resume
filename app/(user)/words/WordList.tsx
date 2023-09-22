@@ -9,7 +9,7 @@ function getRandomInt(max) {
 
 const fetchWords = async() => {
   // random timeout for number of seconds for suspense demo
-  const timeout = Math.floor(Math.random() * 5 + 1) * 1000;
+  const timeout = Math.floor(Math.random() * 8 + 2) * 1000;
   await new Promise((resolve) => setTimeout(resolve, timeout));
   const api = process.env.CHOLHKAN_API;
   const random = getRandomInt(8820);

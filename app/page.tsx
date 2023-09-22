@@ -15,6 +15,21 @@ const Home:any=(): JSX.Element => {
        <div className="text-center text-4xl">   
          <h1 tabIndex={0} aria-label="About my site" className="p-4 text-8xl text-bold"></h1>
          <p tabIndex={0} className="text-2xl" >Hey there! I'm Evelyn and this is my personal site. Built with ❤️ using React. </p>  
+         
+         &nbsp;
+         &nbsp;
+         <h2 className="text-4xl">About me:</h2>
+         &nbsp;
+         &nbsp;
+          <div className="text-2xl" > 
+            <p tabIndex={0}>I am a Software Engineer that located in the Orange County, California area.  I love to speak Chickasaw, and am a citizen of the Chickasaw Nation.  I love the beach, and hanging out with my family. I love building things, and sometimes I like to just go swimming in the pool. </p>
+         </div> 
+
+          &nbsp;
+          &nbsp;
+          &nbsp;
+          &nbsp;
+          &nbsp;
          <h2>About this site:</h2>
          &nbsp;
          &nbsp;
@@ -34,12 +49,7 @@ const Home:any=(): JSX.Element => {
             &nbsp;
             &nbsp;
             &nbsp;
-         <h2 className="text-4xl">About me:</h2>
-         &nbsp;
-         &nbsp;
-          <div className="text-2xl" > 
-            <p tabIndex={0}>I am a software engineer that lives in the Greater Los Angeles area.  I love speaking Chickasaw, and am a citizen of the Chickasaw Nation.  I love surfing, and hanging out with my family. I love building things, and sometimes I like to just go swimming in the pool. </p>
-         </div>   
+          
       </div>
       </div>
       </div>

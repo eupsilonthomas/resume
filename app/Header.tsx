@@ -9,13 +9,13 @@ import { MdOutlineFileUpload} from 'react-icons/md';
 function Header() {
   return <header className="header flex justify-between">
     <div className="pt-2 pl-2 pt-4 ">
-      <a aria-label={"Chickasaw Flash Cards"}className="" href="/">
+      <a aria-label={"About this site"} className="" href="/">
         <Image className="" role="presentation" src="/grapes.svg" alt="return to home page" height={50} width={75} />
       </a>
     </div> 
     <div className="header-subnav mr-2 lg:pt-8 sm:mr-2 pt-8 pr-8">
       <div className="mb-4">
-        <Link href="/resume" className="pl-6 hover:text-decoration">Resume</Link>
+        <Link href="/resume" className="pl-6 hover:text-decoration">Resumé</Link>
       </div>
       <div className="mb-4">
         <Link href="/words" className="pl-6 hover:text-decoration">Words</Link>
@@ -31,7 +31,7 @@ function Header() {
         }}
         onClick={() => console.log("Successfully shared!")}    
       > 
-      <button className="hover:text-teal-600 pl-8"><MdOutlineFileUpload style={{fontSize:'27px'}} /></button>
+      <button aria-label={"share Evelyn's site"} className="hover:text-teal-600 pl-8"><MdOutlineFileUpload style={{fontSize:'27px'}} /></button>
       </RWebShare>   
     </div>     
  </header>

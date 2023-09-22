@@ -1,7 +1,7 @@
 {
-  "name": "lhikommak",
-  "short_name": "Chickasaw Flash Cards",
-  "description": "https://www.lhikommak.com/ is a Chickasaw Rosetta Stone flash card site",
+  "name": "EDT",
+  "short_name": "Ev's Resume",
+  "description": "https://www.evelyndthomas.com/ is my resume.",
   "lang": "en-US",
   "start_url": "/?start=url",
   "scope": ".",
