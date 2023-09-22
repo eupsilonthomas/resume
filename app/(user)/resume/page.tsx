@@ -2,7 +2,8 @@ async function ResumePage () {
   return (
   <main className="flex min-h-screen flex-col items-center">
     <h1 className="text-6xl pt-8 text-bold center">Code, Style, Build, Ship </h1>
-    <a className="p-8 text-blue-500 hover:underline"  href="/EvelynDThomasResume-2023.pdf"  download="EvelynDThomasResume-2023.pdf"> Download PDF</a>
+    <a className="pt-8 pb-2 text-blue-500 hover:underline"  href="/EvelynDThomasResume-2023.pdf"  download="EvelynDThomasResume-2023.pdf"> Download PDF</a>
+    <a className="pb-8 text-blue-500 hover:underline"  href="/EvelynDThomasResume-2023.docx"  download="EvelynDThomasResume-2023.docx"> Download docx</a>
     <h2 className="text-3xl ">Summary</h2>
     <div className="m-8">
      <p>Seasoned Software Engineer with <strong>15+</strong> years of experienced building, deploying, styling, and operating serverless and serverful distributed systems, and analyzing metrics.  My passions include Nextjs, Reactjs, TypeScript and NodeJS, with focus on Accessibility. I enjoy improving and simplifying operational CI/CD flow, and quality in existing and new systems. Enhancing collaboration amongst stakeholders and team members is a primary focus.  Seeking role as a Senior Full Stack engineer.</p>
