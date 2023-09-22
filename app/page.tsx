@@ -9,7 +9,7 @@ const Home:any=(): JSX.Element => {
       <div className=""  >
      
      <title>Evelyn Thomas</title> 
-     <meta name="description" content="About Chickasaw Flash Cards" />        
+     <meta name="description" content="Evelyn D Thomas Fullstack Software Engineer" />        
      
      <div className="pb-8 align-center-container ">
        <div className="text-center text-4xl">   
