@@ -7,13 +7,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <main className="flex  min-h-[79vh] center-container">
-      <div className="grid-cols-1">
-        <div className="grid">
-          <WordList/>
-        </div>
-        <div className="grid mb-24 ">
+    <main className="flex min-h-[79vh] center-container">
+      <div className="grid-cols m-auto">
+        <div className="center m-8">
           <div>{children}</div>
+          <WordList/>
         </div>
       </div>
     </main>
