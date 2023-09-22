@@ -1,0 +1,66 @@
+.header {
+  min-width: 100%;
+  min-width: 100vw;
+  width:100%;
+  overflow-x:hidden;
+  color:white;
+  
+  padding: 0;
+  
+  background-color: black;
+  background: conic-gradient(black, gray, darkgray, red);
+   /* A bluish purple box: the gradient goes from blue to red,
+   but only the bottom right quadrant is visible, as the
+   center of the conic gradient is at the top left corner */
+  background:conic-gradient(from 100deg at 0 0, #222021, teal);
+  @apply
+  shadow-xl;
+}
+
+.header img {
+  //padding: 12px 8px 8px 12px;
+  padding:0;
+  @apply
+  font-semibold  
+  bg-transparent
+  rounded-xl 
+  shadow-md
+  border-spacing-x-4 
+  w-[70px] 
+  inline-block 
+  p-2
+  cursor-pointer 
+  hover:scale-105 
+  ease-in-out duration-200 
+  hover:bg-slate-400 
+  hover:text-white;
+}
+
+.header:hover {
+  background:#222021;
+}
+
+.header img:hover {
+  background:#222021;
+ 
+  //padding: 12px 8px 8px 12px;
+  border-radius: 50%;
+}
+
+.header-subnav a{
+
+}
+.header-subnav a:hover{
+  text-decoration: underline 1px ;
+  @apply
+  text-teal-600;
+}
+.header-subnav button:hover {
+  text-decoration: underline 1px ;
+  @apply
+  text-teal-600;
+}
+
+.header-subnav a:focus{
+  color: teal;
+}

@@ -1,0 +1,31 @@
+
+.loader {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: animloader 1s linear infinite;
+  background: darkgray;
+  border: dotted 1px lightgray;
+  transition: opacity 0.3s;
+  position: absolute;
+}
+
+.loader-wrapper {
+  margin: 20px 28px 40px 0px;
+}
+
+.loader--hide {
+  opacity: 0;
+}
+
+@keyframes animloader {
+  0% {
+    box-shadow: -72px 0 #FFF inset;
+  }
+  100% {
+    box-shadow: 48px 0 #FFF inset;
+  }
+}
+    
