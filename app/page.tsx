@@ -41,8 +41,6 @@ const Home:any=(): JSX.Element => {
             &nbsp;
             &nbsp;
             &nbsp;
-            <p>This application is a progressive web application that can be added to your phone home screen by clicking the "Add to home screen" from the the share button in Safari. </p>
-            &nbsp;
             <p>This application is for education, teaching and amusement on my resume page.</p>
             &nbsp;
             &nbsp;

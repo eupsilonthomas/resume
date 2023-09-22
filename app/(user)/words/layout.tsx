@@ -12,7 +12,7 @@ export default function RootLayout({
         <div className="grid">
           <WordList/>
         </div>
-        <div className="grid">
+        <div className="grid mb-24 ">
           <div>{children}</div>
         </div>
       </div>
