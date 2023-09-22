@@ -7,7 +7,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <main className="flex flex-wrap min-h-[79vh] overflow-hidden justify-between space-x-2 ">
+    <main className="flex flex-wrap min-h-[79vh] overflow-hidden justify-between space-x-1 ">
       <div className="m-8">
         <WordList/>
       </div>
