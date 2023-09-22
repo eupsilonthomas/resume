@@ -47,10 +47,10 @@ async function WordPage ({params: {wordId}}: PageProps) {
    //return the fragment or the server side parts will be gone
   return (
     <>
-     <div className="text-3xl bg-slate-300 card m-auto mb-8 items-center ">
-        <div className="text-teal-500">Chickasaw:</div>
+     <div className="text-4xl bg-slate-300 card m-auto items-center hover:bg-teal-100 shadow-xl cardhov">
+        <div className="text-teal-600">Chickasaw:</div>
         <div>{word.word[0]}</div>
-        <div className="pt-4 text-teal-500">
+        <div className="pt-4 text-teal-600">
         Definition:</div>
         <div className="">
          {word.gloss[0]}
