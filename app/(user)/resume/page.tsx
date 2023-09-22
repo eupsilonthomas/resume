@@ -1,7 +1,7 @@
 async function ResumePage () {
   return (
   <main className="flex min-h-screen flex-col items-center">
-    <h1 className="text-6xl pt-8 text-bold">Code, Style, Build, Ship </h1>
+    <h1 className="text-6xl pt-8 text-bold center">Code, Style, Build, Ship </h1>
     <a className="p-8 text-blue-500 hover:underline"  href="/EvelynDThomasResume-2023.pdf"  download="EvelynDThomasResume-2023.pdf"> Download PDF</a>
     <h2 className="text-3xl ">Summary</h2>
     <div className="m-8">
@@ -111,7 +111,7 @@ Quickly coordinated, designed, implemented and documented solution for Transport
     
    
    
-    <h4 className="text-3xl">Self Employment / Volunteering</h4>
+    <h4 className="text-3xl center">Self Employment / Volunteering</h4>
     <div className="m-8">
     &nbsp;
     &nbsp;
@@ -141,7 +141,7 @@ Quickly coordinated, designed, implemented and documented solution for Transport
     <br></br>
     <h4 className="text-3xl"> Education </h4>
     &nbsp; &nbsp; &nbsp;
-    <div>
+    <div className="center">
      &nbsp;
     <strong>Bachelor of Science Degree, &nbsp;&nbsp;Physics. &nbsp;  University of Oregon, Eugene, OR &nbsp;USA &nbsp; </strong>
     <br></br>
