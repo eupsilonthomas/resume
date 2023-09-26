@@ -1,16 +1,13 @@
+
 import React from "react";
 import Link from 'next/link';
 import { Word } from '../../../typings';
  
-
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 
-const fetchWords = async() => {
-  // random timeout for number of seconds for suspense demo
-  const timeout = Math.floor(Math.random() * 8 + 2) * 1000;
-  await new Promise((resolve) => setTimeout(resolve, timeout));
+const fetchWords = async() => { 
   const api = process.env.CHOLHKAN_API;
   const random = getRandomInt(8820);
 
@@ -31,7 +28,7 @@ const fetchWords = async() => {
 
 const WordList:any=async() =>{
   const words = await fetchWords();
-
+ 
   return<>  
     {words.map((word) => (
     <Link href={`/words/${word._id}`}>
