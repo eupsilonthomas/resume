@@ -66,7 +66,7 @@ async function ResumePage () {
      
     <br></br>
     <br></br>
-    <div><strong>Skills:</strong>   Node.js, Next.js, Express, Reactjs, Redux, Passport, MongoDB, Nginx, AWS ES2 Linux with Docker,Storybook, Figma </div>
+    <div><strong>Skills:</strong>   Node.js, Next.js, Express, Reactjs, Redux, Passport, MongoDB, Nginx, AWS EC2, Linux, Docker, Storybook, Figma </div>
     <ul className="list-disc ml-8">
       <li>Small team architect and technical lead on mission critical products. <a className="pb-8 text-blue-500 hover:underline"  href="https://roadtripnation.com/experience/course/rtn/overview" target="_blank">Roadtrip Nation</a></li>
       <li>2018 Recipient of the Red Eye award for dedication to project and delivery.	</li>
@@ -75,7 +75,7 @@ async function ResumePage () {
        
       <li>Implemented Next.js SSO authentication site for multiple productions in our line.</li>
       <li>Provided DevOps for multiple products including Linux, AWS, Docker, AWS EC2, Jenkins, and Bitbucket Pipelines. </li>
-      <li>Team flagship product retool with Next.js, React, MongoDB.</li>
+      <li>Team flagship product retool with Next.js, React, MongoDB,Node.js microservices, REST APIs.</li>
     </ul>
     
     <br></br>

@@ -8,13 +8,13 @@ function Nav() {
       <div className="">
         <SocialIcon 
           url="https://github.com/eupsilonthomas"
-          className="m-2 bg-white rounded-3xl border-2 hover:bg-slate-500"
+          className="m-2 bg-white rounded-3xl border-2 hover:bg-slate-500 shadow-md hover:shadow-xl"
           label=""
           />
         
         <SocialIcon 
           url="https://www.linkedin.com/in/eupsilon/"
-          className="m-2 bg-white rounded-3xl border-2 hover:bg-blue-600"
+          className="m-2 bg-white rounded-3xl border-2 hover:bg-blue-600 shadow-md hover:shadow-xl"
           label=""
          /> 
       </div>    
