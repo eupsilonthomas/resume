@@ -1,6 +1,6 @@
  
 .footer {
-  background-color:whitesmoke;
+  background-color:$white;
   padding: 4px;
   justify-content: center;
   align-items: center;
@@ -11,13 +11,14 @@
   margin: 0 auto;
   overflow: hidden; 
   border-top: 1px lightgray solid;
-  @apply
+  @apply 
   drop-shadow-xl;
+  & a {
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
 }
 
-.footer a {
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
+ 

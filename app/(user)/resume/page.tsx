@@ -15,7 +15,7 @@ async function ResumePage () {
     <div className="m-8">
       <p className="">
         <strong>Languages:  </strong>
-         NodeJS, Next.js,Reactjs, TypeScript, JavaScript, Perl, Bash, sass, css, tailwind
+         <strong>Node.js, Next.js,Reactjs,</strong> TypeScript, JavaScript, Perl, Bash, sass, css, tailwind
       </p>
       &nbsp;
       <p>
@@ -141,9 +141,9 @@ async function ResumePage () {
     <ul className="list-disc ml-8" >
       <li>I’ve been creating Chickasaw Language specific applications for Chickasaw language teachers and students. <a className="pb-8 text-blue-500 hover:underline"  href="https://www.lhikommak.com/exercises/rs-1" target="_blank">Flash Cards</a>
       </li> 
-      <li> I developed the software with <strong>Next.js 13.4</strong> with Typescript, React, MongoDB, with accessible Progressive Web Apps on the Vercel serverless platform.
+      <li> I developed the software with <strong>Next.js 13.4</strong> with <strong>Typescript</strong>, <strong>Reactjs</strong>, MongoDB, with accessible Progressive Web Apps on the Vercel serverless platform.
       </li>
-      <li>  I also constructed Node.js microservices for the Chickasaw Language word bank on a Linux server with pm2, along with MongoDB.  
+      <li>  I also constructed <strong>Node.js REST API</strong> microservices for the Chickasaw Language word bank on a Linux server with pm2, along with MongoDB.  
       </li>
       <li>Currently, I am utilizing Google Tag Manager, Google Analytics, and Search Console. The Progressive Web Apps are for easy string search, and regex string search for the Chickasaw word bank.
       </li>
@@ -165,9 +165,9 @@ async function ResumePage () {
     &nbsp; &nbsp; &nbsp;
     <div className="center">
      &nbsp;
-    <strong>Bachelor of Science Degree, &nbsp;&nbsp;Physics. &nbsp;  University of Oregon, Eugene, OR &nbsp;USA &nbsp; </strong>
+    <strong>Bachelor of Science Degree, Physics, University of Oregon, Eugene, OR </strong>
     <br></br>
-    <strong>Northwest Indian College, &nbsp;&nbsp;American Indian/Native American Languages &nbsp; Bellingham, &nbsp;USA </strong>
+    <strong>Northwest Indian College, American Indian/Native American Languages, Bellingham, WA </strong>
     &nbsp;
     <br></br>
     <br></br>

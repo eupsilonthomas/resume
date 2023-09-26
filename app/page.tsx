@@ -3,7 +3,7 @@ import React from 'react';
 const Home:any=(): JSX.Element => {
   return (
     <main className="flex flex-col items-center  min-h-[90vh]  overflow-auto">   
-    <div className="grid home mb-8  pl-8 pr-8">
+    <div className="grid  mb-8  pl-8 pr-8">
       <div className=""  >
      
      <title>Evelyn Thomas</title> 
@@ -12,7 +12,7 @@ const Home:any=(): JSX.Element => {
      <div className="pb-8 align-center-container ">
        <div className="text-center text-4xl">   
          <h1 tabIndex={0} aria-label="About my site" className="p-4 text-8xl text-bold"></h1>
-         <p tabIndex={0} className="text-2xl" >Hey there! I'm Evelyn and this is my personal site. Built with ❤️  &nbsp; using React. </p>  
+         <p tabIndex={0} className="text-2xl" >Hey there! I'm Evelyn and this is my personal site. Built with ❤️ using React. </p>  
          
          &nbsp;
          &nbsp;

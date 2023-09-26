@@ -2,12 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@import '../styles/colors.scss';
 @import '../styles/Home.module.scss';
 @import "../styles/header.scss";
 @import "../styles/footer.scss";
 @import "../styles/modal.scss";
 @import "../styles/loader.scss";
 @import "../styles/card.scss";
+@import "../styles/button.scss";
+
  
 @layer utilities {
   @variants responsive {

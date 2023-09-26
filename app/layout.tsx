@@ -1,10 +1,12 @@
 import './globals.scss'
 import { Inter } from 'next/font/google'
+import { GlobalContextProvider } from './Context/store';
 import Header from './Header';
 import Footer from './Footer';
+
 const inter = Inter({ subsets: ['latin'] })
 const GTAG = process.env.GTAG;
-
+const value = {words: []};
 /*export const metadata = {
   title: 'Ev Website Next 13',
   description: '',
@@ -49,10 +51,11 @@ export default function RootLayout({
         }}
         />
         {/* End Google Tag Manager (noscript) */}
-        
-        <Header/>
-        {children}
-        <Footer/>
+        <GlobalContextProvider>
+          <Header/>
+            {children}
+          <Footer/>
+       </GlobalContextProvider> 
       </body>
     </html>
   )

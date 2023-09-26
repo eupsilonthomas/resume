@@ -5,7 +5,6 @@ import Image from 'next/image';
 import { RWebShare } from "react-web-share";
 import { MdOutlineFileUpload} from 'react-icons/md';
  
-
 function Header() {
   return <header className="header flex justify-between">
     <div className="mt-2 pt-2  ml-1">
@@ -22,6 +21,12 @@ function Header() {
       <div className="">
         <Link href="/words" className="p-4  hover:text-decoration">Words</Link>
       </div>
+      <div className="">
+        <Link href="/404" className="pr-4  hover:text-decoration">404</Link>
+      </div>
+
+      
+
       <div className="hover:teal-600">
         <RWebShare
          data={{

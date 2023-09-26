@@ -1,7 +1,7 @@
 {
   "name": "EDT",
   "short_name": "Ev's Resume",
-  "description": "https://www.evelyndthomas.com/ is my resume.",
+  "description": "https://www.evelyndthomas.com is my resume.",
   "lang": "en-US",
   "start_url": "/?start=url",
   "scope": ".",

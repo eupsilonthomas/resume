@@ -1,0 +1,18 @@
+.button-more {
+  color: $white;
+  background: darkgray;
+  border: 6px solid darkgray;
+  border-radius: 18px;
+  float:left;
+  margin-left: 12px;
+  margin-bottom: 6px;
+  &:hover {
+    text-decoration: 2px solid underline;
+    background:darkgray;
+    border: 6px solid darkgray;
+  }
+  &:focus {
+    background: lightgray;
+    border: 6px solid lightgray;
+  }
+}
