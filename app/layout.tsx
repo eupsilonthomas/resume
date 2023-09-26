@@ -38,6 +38,7 @@ export default function RootLayout({
         <meta httpEquiv="Expires" content="86400000" />
         <meta httpEquiv="Cache-Control" content="max-age=86400000" /> 
         <meta name="description" content="Evelyn D Thomas" />  
+        <link rel="shortcut icon" href="/circleIcon.ico" />
       </head>  
       
       <body className={inter.className}>

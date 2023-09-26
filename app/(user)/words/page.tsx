@@ -7,7 +7,7 @@ const Words:any=(): JSX.Element => {
         <>
           <title>Chickasaw words demonstration | Evelyn D Thomas</title>       
           <meta name="description" content="Chickasaw word demonstration.  See a new words"  />  
-          <div className="text-6xl mb-4 ">Select a word </div>
+          <div className="text-6xl mb-4 center">Select a word </div>
         </>
     );
 };

@@ -1,8 +1,6 @@
 import React from 'react';
 
 const Home:any=(): JSX.Element => {
-  const GTAG = process.env.GTAG;
-
   return (
     <main className="flex flex-col items-center  min-h-[90vh]  overflow-auto">   
     <div className="grid home mb-8  pl-8 pr-8">
@@ -14,7 +12,7 @@ const Home:any=(): JSX.Element => {
      <div className="pb-8 align-center-container ">
        <div className="text-center text-4xl">   
          <h1 tabIndex={0} aria-label="About my site" className="p-4 text-8xl text-bold"></h1>
-         <p tabIndex={0} className="text-2xl" >Hey there! I'm Evelyn and this is my personal site. Built with ❤️ using React. </p>  
+         <p tabIndex={0} className="text-2xl" >Hey there! I'm Evelyn and this is my personal site. Built with ❤️  &nbsp; using React. </p>  
          
          &nbsp;
          &nbsp;
@@ -22,7 +20,7 @@ const Home:any=(): JSX.Element => {
          &nbsp;
          &nbsp;
           <div className="text-2xl" > 
-            <p tabIndex={0}>I am a Software Engineer that located in the Orange County, California area.  I love to speak Chickasaw, and am a citizen of the Chickasaw Nation.  I love the beach, and hanging out with my family. I love building things, and sometimes I like to just go swimming in the pool. </p>
+            <p tabIndex={0}>I am a Fullstack Software Engineer, located in the Orange County, California area. I love building things, and hanging out with my family. </p>
          </div> 
 
           &nbsp;
@@ -48,10 +46,9 @@ const Home:any=(): JSX.Element => {
             &nbsp;
             &nbsp;
           
-      </div>
-      </div>
-      </div>
-  
+            </div>
+          </div>
+        </div>  
        </div>
      </div>
    </main>

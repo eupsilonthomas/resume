@@ -22,7 +22,7 @@ const fetchWords = async() => {
     },
   }   
    
-  const res = await fetch(`${api}/chickasaw?limit=5&offset=${random}&`, options);
+  const res = await fetch(`${api}/chickasaw?limit=4&offset=${random}&`, options);
   const { data } = await res.json();
   const words: Word[] = data;
  
@@ -32,15 +32,15 @@ const fetchWords = async() => {
 const WordList:any=async() =>{
   const words = await fetchWords();
 
-  return <>
+  return<>  
     {words.map((word) => (
-      <li key={word._id} className="list-none">
-        <ul className="p-2 m-2 text-2xl hover:underline">
-          <Link href={`/words/${word._id}`}>{word.word[0]}</Link>
-        </ul>  
-      </li>
+    <Link href={`/words/${word._id}`}>
+      <div key={word.word} className="text-xl bg-slate-300 card m-auto items-center hover:bg-teal-100 shadow-xl cardhov ">
+        <div>{word.word[0]}</div>  
+      </div> 
+    </Link>
     ))}
-  </>
+    </>
 }
 
 export default WordList;
