@@ -31,7 +31,7 @@ const WordList:any=async() =>{
  
   return<>  
     {words.map((word) => (
-    <Link href={`/words/${word._id}`}>
+    <Link key={word._id} href={`/words/${word._id}`}>
       <div key={word.word} className="text-xl bg-slate-300 card m-auto items-center hover:bg-teal-100 shadow-xl cardhov ">
         <div>{word.word[0]}</div>  
       </div> 

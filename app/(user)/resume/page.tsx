@@ -2,12 +2,12 @@ async function ResumePage () {
   return (
   <main className="flex min-h-screen flex-col items-center">
     <h1 className="text-6xl pt-8 text-bold center">Code, Style, Build, Ship </h1>
-    <a className="pt-8 pb-2 text-blue-500 hover:underline"  href="/EvelynDThomasResume-2023.pdf"  download="EvelynDThomasResume-2023.pdf"> Download PDF</a>
+    <a className="pt-8 pb-2 text-blue-500 hover:underline"  href="/EvelynDThomasResume-2023.pdf"  download="EvelynDThomasResume-2024.pdf"> Download PDF</a>
      
     <h2 className="text-3xl ">Summary</h2>
     
     <div className="m-8">
-     <p>Results-driven Fullstack Software Engineer and Architect, adept in delivering customer-focused solutions on time. Proven expertise in design, validation, documentation and team leadership. Seeking full-time role as a Senior Full Stack Engineer remote or in Orange County, California.</p>
+     <p>Results-driven Fullstack Software Engineer and Architect, adept in delivering customer-focused solutions on time. Proven expertise in design, validation, documentation and team leadership. Seeking full-time role as a remote first &nbsp;<strong>Senior Full Stack Engineer</strong>.</p>
     </div>
     
     <h3 className="text-3xl">Technical Skills</h3>
@@ -26,7 +26,11 @@ async function ResumePage () {
       &nbsp;
       <p>
       <strong>Tools:  </strong>
-      Docker, AWS(S3, IAM, EC2), API Gateways, nvm, Git, Workflow, Bitbucket Pipelines, Jenkins Pipelines, Linux, VS Code, Vim, Confluence, Google Analytics, Storybook, Figma.
+      Docker, AWS, API Gateways, nvm, Git, Workflow, Bitbucket Pipelines, Jenkins Pipelines, Linux, VS Code, Vim, Confluence, Google Analytics, Storybook, Figma.
+      </p>
+      <p>
+      <strong>Certifications:</strong>
+       &nbsp; AWS <a className="pt-8 pb-2 text-blue-500 hover:underline"  href="https://www.credly.com/badges/80277ada-bd59-478c-b296-f0d762cadf94/public_url">Certification Verification</a>
       </p>
     </div>
 
@@ -68,7 +72,7 @@ async function ResumePage () {
     <br></br>
     <div><strong>Skills:</strong>   Node.js, Next.js, Express, Reactjs, Redux, Passport, MongoDB, Nginx, AWS EC2, Linux, Docker, Storybook, Figma </div>
     <ul className="list-disc ml-8">
-      <li>Small team architect and technical lead on mission critical products. <a className="pb-8 text-blue-500 hover:underline"  href="https://roadtripnation.com/experience/course/rtn/overview" target="_blank">Roadtrip Nation</a></li>
+      <li>Small team architect and technical lead on mission critical products. <a className="underline pb-8 text-blue-500 hover:underline"  href="https://roadtripnation.com/experience/course/rtn/overview" target="_blank">Roadtrip Nation</a></li>
       <li>2018 Recipient of the Red Eye award for dedication to project and delivery.	</li>
       <li>Championed and implemented Storybook with React for reusable components library.</li>
       <li>Championed  and implemented test coverage across software products.</li>
@@ -139,7 +143,7 @@ async function ResumePage () {
     &nbsp;
     &nbsp;
     <ul className="list-disc ml-8" >
-      <li>I’ve been creating Chickasaw Language specific applications for Chickasaw language teachers and students. <a className="pb-8 text-blue-500 hover:underline"  href="https://www.lhikommak.com/exercises/rs-1" target="_blank">Flash Cards</a>
+      <li>I’ve been creating Chickasaw Language specific applications for Chickasaw language teachers and students. <a className="underline pb-8 text-blue-500 hover:underline"  href="https://www.lhikommak.com/exercises/rs-1" target="_blank">Flash Cards</a>
       </li> 
       <li> I developed the software with <strong>Next.js 13.4</strong> with <strong>Typescript</strong>, <strong>Reactjs</strong>, MongoDB, with accessible Progressive Web Apps on the Vercel serverless platform.
       </li>
@@ -173,6 +177,17 @@ async function ResumePage () {
     <br></br>
     <br></br>
     </div>
+
+    <h4 className="text-3xl">Certifications</h4>
+    &nbsp; &nbsp; &nbsp;
+    <div className="center">
+     &nbsp;
+     <strong>AWS Certified Cloud Practitioner</strong>
+     <ul>
+      <a className="underline text-blue-500" href="https://www.credly.com/badges/80277ada-bd59-478c-b296-f0d762cadf94/public_url">Certification Validation</a>
+     </ul>
+    </div>
+
 
     <br></br>
     <br></br> 

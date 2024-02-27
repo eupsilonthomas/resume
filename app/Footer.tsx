@@ -4,7 +4,7 @@ import Nav from './Nav'
 function Footer() {
   const currentYear = new Date().getFullYear();
 return (
-<footer>
+  <footer>
     <div className="footer flex"> 
       <div className="grid-cols-1">
        <Nav/>  
