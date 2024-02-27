@@ -12,7 +12,7 @@ const Home:any=(): JSX.Element => {
      <div className="pb-8 align-center-container ">
        <div className="text-center text-4xl">   
          <h1 tabIndex={0} aria-label="About my site" className="p-4 text-8xl text-bold"></h1>
-         <p tabIndex={0} className="text-2xl" >Hey there! I'm Evelyn and this is my personal site. Built with ❤️ using React. </p>  
+         <p tabIndex={0} className="text-2xl" >Hey there! I'm Evelyn and this is my personal site. Built with ❤️ using NextJS/React. </p>  
          
          &nbsp;
          &nbsp;
@@ -32,7 +32,7 @@ const Home:any=(): JSX.Element => {
          &nbsp;
          &nbsp;
          <div className="text-2xl">  
-            <p tabIndex={0}>This project is built with Nextjs 13, with server and client components in React 18. </p>
+            <p tabIndex={0}>This project is built with Nextjs 14, with server and client components in React 18. </p>
             <p tabIndex={0}>The server side gathers data from a Nodejs microservice served up behind an express Gateway.</p>
             <br></br>
             <p tabIndex={0} >The serverless application is hosted on Vercel, to take advantage of the Edge network CDN capabilities.</p>

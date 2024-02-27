@@ -7,7 +7,7 @@ import { MdOutlineFileUpload} from 'react-icons/md';
  
 function Header() {
   return <header className="header flex justify-between">
-    <div className="mt-2 pt-2  ml-1">
+    <div className="mt-2 pt-2 ml-4">
       <a aria-label={"About this site"} className="" href="/">
       <svg height="60" width="60">
            <circle cx="20" cy="20" r="15" stroke="black" strokeWidth="2" fill="whitesmoke" />
