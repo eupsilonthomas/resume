@@ -2,7 +2,7 @@ async function ResumePage () {
   return (
   <main className="flex min-h-screen flex-col items-center">
     <h1 className="text-6xl pt-8 text-bold center">Code, Style, Build, Ship </h1>
-    <a className="pt-8 pb-2 text-blue-500 hover:underline"  href="/EvelynDThomasResume-2023.pdf"  download="EvelynDThomasResume-2024.pdf"> Download PDF</a>
+    <a className="pt-8 pb-2 text-blue-500 hover:underline"  href="/EvelynDThomasResume.pdf"  download="EvelynDThomasResume.pdf"> Download PDF</a>
      
     <h2 className="text-3xl ">Summary</h2>
     
